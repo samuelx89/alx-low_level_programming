@@ -4,11 +4,11 @@ int _putchar(char c);
 
 /**
  *  * print_times_table - print the times table until n
- *   *
- *    * @n: n times table
- *     *
- *      * Return: No return
- *       */
+ *
+ * @n: n times table
+ *
+ * Return: No return
+ */
 
 void print_times_table(int n)
 {
