@@ -1,8 +1,8 @@
-#include "main.h"
+nclude "main.h"
 /**
- *  * main - prints_putchar
- *
- * return: always 0 (Success)
+ *  * main - Prints _putchar
+ *   *
+ *    * return: Always 0 (Success)
  */
 int main(void)
 {
