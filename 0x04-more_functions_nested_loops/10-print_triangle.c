@@ -14,7 +14,7 @@ i = size - 1 - c;
 j = c + 1;
 while (i > 0)
 {
-_putchar('');
+_putchar(' ');
 i--;
 }
 while (j > 0)
