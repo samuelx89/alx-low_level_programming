@@ -15,6 +15,6 @@ if (x % py == 0)
 x = x / py;
 }
 }
-printf("%ld\n", py);		
+printf("%ld\n", py);
 return (0);
 }
