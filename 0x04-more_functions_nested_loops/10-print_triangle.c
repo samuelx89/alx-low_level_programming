@@ -1,41 +1,31 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *  * main - Fizz for multiples of 3 and Buzz for multiples of 5 FizzBuzz for both
- *   *
- *    *
- *     * Return: Always 0
- *      */
-int main(void)
+ * print_triangle - print a triangle aligned right, using '#'
+ * @size: Size of triangle
+ */
+void print_triangle(int size)
 {
-		int x = 1;
-
-			while (x < 101)
-					{
-								if (x % 3 == 0 && x % 5 == 0)
-											{
-															printf("%s", "FizzBuzz");
-																	}
-										else if (x % 3 == 0)
-													{
-																	printf("%s", "Fizz");
-																			}
-												else if (x % 5 == 0)
-															{
-																			printf("%s", "Buzz");
-																					}
-														else
-																	{
-																					printf("%d", x);
-																							}
-
-																if (x != 100)
-																			{
-																						printf(" ");
-																								}
-																		x++;
-																			}
-				printf("\n");
-				return (0);
+int c, i, j;
+c = 0;
+i = size - 1;
+while (c < size)
+{
+i = size - 1 - c;
+j = c + 1;
+while (i > 0)
+{
+_putchar(' ');
+i--;
+}
+while (j > 0)
+{
+_putchar('#');
+j--;
+}
+_putchar('\n');
+c++;
+}
+f (size <= 0)
+_putchar('\n');
 }
